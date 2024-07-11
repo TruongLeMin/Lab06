@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.form-check-input {
+  display: none;
+}
+
+.form-check-label {
+  display: block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form-check-label.bg-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.form-check-label.bg-light {
+  background-color: #f8f9fa;
+}
+
